@@ -1,6 +1,6 @@
-name = "remix-cloudflare-workers"
+name = "remix-cloudflare-module-workers"
 main = "worker/index.ts"
-compatibility_date = "2022-06-13"
+compatibility_date = "2022-12-13"
 
 workers_dev = true
 
