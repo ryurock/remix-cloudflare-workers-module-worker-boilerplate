@@ -1,0 +1,16 @@
+name = "remix-cloudflare-sample"
+main = "worker/index.ts"
+compatibility_date = "2022-12-13"
+
+workers_dev = true
+minify = true
+
+[site]
+bucket = "./public"
+
+[build]
+command = "npm run build"
+
+[env.dev.vars]
+STAGE = "dev"
+
