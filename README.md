@@ -19,7 +19,7 @@ npm install -g wrangler
 or install with yarn:
 
 ```bash
-yarn global add wrangler
+npm install wrangler
 ```
 
 Read more about [installing wrangler](https://developers.cloudflare.com/workers/wrangler/get-started/).
