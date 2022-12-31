@@ -2,7 +2,6 @@
 
 Starter to get going with Remix and Cloudflare Workers (Module Worker).
 
-- [Remix on Cloudflare WorkersをService WorkerからModule Workerに移行する \| DevelopersIO](https://dev.classmethod.jp/articles/remix-on-cloudflare-module-workers/)
 - [Remix Docs](https://remix.run/docs)
 - [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)
 
@@ -14,12 +13,6 @@ Wrangler requires a minimum Node version of 16
 
 ```bash
 npm install -g wrangler
-```
-
-or install with yarn:
-
-```bash
-npm install wrangler
 ```
 
 Read more about [installing wrangler](https://developers.cloudflare.com/workers/wrangler/get-started/).
@@ -59,5 +52,5 @@ If you don't already have an account, then [create a cloudflare account here](ht
 Once that's done, you should be able to deploy your app:
 
 ```sh
-npm run deploy
+npm run deploy:dev
 ```
