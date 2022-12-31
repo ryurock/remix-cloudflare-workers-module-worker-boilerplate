@@ -7,7 +7,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "remix build",
-    "deploy:dev": "npm run build && wrangler publish",
+    "deploy:dev": "npm run build && wrangler publish --config wrangler.dev.toml --env dev",
     "dev:wrangler": "wrangler dev --config wrangler.dev.toml --env dev --local",
     "dev:app": "remix watch",
     "dev": "run-p dev:wrangler dev:app",
