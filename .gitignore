@@ -1,5 +1,5 @@
 # Remix
-/.cache
+.cache
 /build
 /dist
 /public/build
